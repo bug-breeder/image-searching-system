@@ -1,0 +1,10 @@
+# .gitignore
+
+# Ignore datasets folder
+/src/datasets
+
+# Ignore storage folder
+/src/storage
+
+# Ignore Python compiled files
+**/__pycache__/
