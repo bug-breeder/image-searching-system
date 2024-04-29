@@ -1,7 +1,7 @@
 import os
 import torch
 from encoder import Encoder
-from config import DATASET_DIR
+from constants import DATASET_DIR
 
 def extract_features():
   # Load your dataset of images

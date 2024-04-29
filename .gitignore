@@ -1,9 +1,9 @@
 # .gitignore
 
-# Ignore datasets folder
-/src/datasets
+# Ignore datasets dir
+server/dataset/*
 
-# Ignore storage folder
+# Ignore storage dir
 /src/storage
 
 # Ignore Python compiled files
