@@ -23,5 +23,7 @@ def extract_features():
     for image_name in image_names:
       f.write(image_name + "\n")
 
+  print("Image features saved to dataset/image_features.pt")
+
 if __name__ == "__main__":
   extract_features()

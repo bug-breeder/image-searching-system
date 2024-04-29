@@ -1,10 +1,13 @@
 # .gitignore
 
 # Ignore datasets dir
-server/dataset/*
+server/dataset/ILSVRC2012_img_val/
 
 # Ignore storage dir
 /src/storage
 
 # Ignore Python compiled files
 **/__pycache__/
+
+# Ignore .env
+.env
